@@ -74,7 +74,7 @@ gem 'evernote_oauth'
 gem 'listen', '~> 3.0.5', require: false
 
 # S3Agent
-gem 'aws-sdk-core', '~> 2.2.15'
+gem 'aws-sdk-core', '~> 2.8.7'
 
 # Optional Services.
 gem 'omniauth-37signals'          # BasecampAgent
@@ -107,7 +107,7 @@ gem 'httparty', '~> 0.13'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'jquery-rails', '~> 4.2.1'
 gem 'huginn_agent', '~> 0.4.0'
-gem 'json', '~> 1.8.1'
+gem 'json', '~> 1.8.6'
 gem 'jsonpathv2', '~> 0.0.8'
 gem 'kaminari', github: "amatsuda/kaminari", branch: '0-17-stable', ref: 'abbf93d557208ee1d0b612c612cd079f86ed54f4'
 gem 'kramdown', '~> 1.3.3'
@@ -122,7 +122,7 @@ gem 'rufus-scheduler', '~> 3.3.2', require: false
 gem 'sass-rails',   '~> 5.0.6'
 gem 'select2-rails', '~> 3.5.4'
 gem 'spectrum-rails'
-gem 'therubyracer', '~> 0.12.2'
+gem 'therubyracer', '~> 0.12.3'
 gem 'typhoeus', '~> 0.6.3'
 gem 'uglifier', '~> 2.7.2'
 
@@ -161,7 +161,7 @@ group :development do
     gem 'rails-controller-testing'
     gem 'shoulda-matchers'
     gem 'vcr'
-    gem 'webmock', '~> 1.17.4', require: false
+    gem 'webmock', '~> 2.3.2', require: false
     gem 'database_cleaner', '~> 1.5.3'
   end
 end
